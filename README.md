@@ -1,2 +1,3 @@
-# pass-an-image
-Try passing an image to brighten it
+# Encapsulate the image
+
+Bring together an image with its functionality
