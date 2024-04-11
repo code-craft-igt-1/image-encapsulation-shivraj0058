@@ -2,7 +2,7 @@
 
 This project is a first attempt at keeping the image along with its functionality.
 
-## First objective
+## What's done
 
 The code tries to retain image-related functionality in one place (the `Image` struct).
 The first step is to avoid consumers having to worry about managing the pixel memory lifetime.
