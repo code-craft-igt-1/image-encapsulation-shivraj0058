@@ -28,5 +28,14 @@ Move the validation into the `Image` structure, so that it remains a property of
 
 **Try shared responsibility**:
 
+Notice that once the `main()` hands over responsibility, it can no longer access the brightened image.
 
+Resolve this, so that it can access the image after calling the brightener.
+Hint: Use shared_ptr
 
+---
+
+**Improve**:
+
+Improve the code that you aren't modifying as well. E.g., remove all commented code.
+If you need older code, it will be present in the GitHub history
