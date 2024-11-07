@@ -1,4 +1,6 @@
 #include <iostream>
+#include <memory>
+#include <utility>
 #include "./brightener.h"
 
 int main() {

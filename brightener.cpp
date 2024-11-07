@@ -1,4 +1,5 @@
 #include "./brightener.h"
+#include <utility>
 
 ImageBrightener::ImageBrightener(std::unique_ptr<Image> inputImage)
     : m_inputImage(std::move(inputImage)) {
