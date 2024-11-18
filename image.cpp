@@ -1,5 +1,6 @@
 #include "./image.h"
-
+#include <iostream>
+#include <memory>
 
 Image::Image(uint16_t rows, uint16_t columns) : m_rows(rows), m_columns(columns) {
     pixels = std::make_unique<uint8_t[]>(rows * columns);
